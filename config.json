@@ -6,7 +6,7 @@
       "settings": {
         "clients": [
           {
-            "id": "3e2b9b13-6f8e-4c71-bfd7-2d5020de710a",
+            "id": "5256d221-a9c8-4e89-8ed9-3009d9d84d0f",
             "alterId": 0
           }
         ]
@@ -27,6 +27,9 @@
     }
   ],
   "outbounds": [
-    { "protocol": "freedom", "settings": {} }
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
   ]
 }
