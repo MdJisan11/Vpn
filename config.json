@@ -1,0 +1,32 @@
+{
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "3e2b9b13-6f8e-4c71-bfd7-2d5020de710a",
+            "alterId": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "cdn.snapchat.com"
+        },
+        "wsSettings": {
+          "path": "/ws",
+          "headers": {
+            "Host": "cdn.snapchat.com"
+          }
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    { "protocol": "freedom", "settings": {} }
+  ]
+}
